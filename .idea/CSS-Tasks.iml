@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <content url="file://$MODULE_DIR$/../css/aidlist" />
+    <content url="file://$MODULE_DIR$/../css/aidpersonal" />
+    <content url="file://$MODULE_DIR$/../css/boardgamer" />
+    <content url="file://$MODULE_DIR$/../css/loginpage" />
+    <content url="file://$MODULE_DIR$/../css/mojing" />
+    <content url="file://$MODULE_DIR$/../css/nine-blocks" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
