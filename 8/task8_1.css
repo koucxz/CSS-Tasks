@@ -1,0 +1,138 @@
+@charset "utf-8";
+body{
+    margin: 0 auto;
+    width:1920px;
+}
+.header {
+    display: flex;
+    flex-direction:column;
+    font-size:0;
+    width: 100%;
+}
+.header hr{
+    height:1px;
+    color:#f6f6f6;
+    background-color:#f6f6f6;
+}
+.header-contact{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    height:3.8rem;
+    padding:0 18.8%;
+}
+.header-contact .telenumber{
+    display:inline-flex;
+    font-size:1.4rem;
+    color:#79c7a3;
+}
+.header-contact .apps{
+    display:inline-flex;
+    justify-content:space-between;
+    width:9.2%;
+}
+.header-nav{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+    align-items:center;
+    width:100%;
+    padding:0 16.5%;
+    height:9.8rem;
+    background-color:#29b078;
+}
+.header-nav ul{
+    display:inline-flex;
+    flex-wrap:nowrap;
+    width:40%;
+    font-size:1.6rem;
+    color:white;
+}
+.header-nav ul li{
+    display:inline-flex;
+    width:25%;
+    height:9.8rem;
+}
+.header-nav .navbar-nav a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    width:100%;
+    height:9.8rem;
+}
+.header-nav .navbar-nav a:visited{
+    background-color:#29b078;
+    border-bottom:5px solid #fefefe;
+}
+.header-nav .navbar-nav a:hover{
+    color:white;
+    border-bottom:5px solid #fefefe;
+    background-color:#29b078;
+}
+.header-nav .navbar-nav a:active{
+    color:white;
+    border-bottom:5px solid #fefefe;
+}
+.container{
+    width:100%;
+    margin: 0 auto;
+    padding:0 17.8%;
+    background:#fafafa;
+}
+.dominant{
+    width:100%;
+    font-size:0;
+}
+.dominant .col-sm-3{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:0 3.5%;
+    height:44.6rem;
+}
+.dominant img{
+    display:inline-flex;
+}
+.dominant h5{
+    display:inline-flex;
+    margin:3.4rem 0;
+    font-size:1.8rem;
+}
+.dominant p{
+    display:inline-flex;
+    font-size:1.6rem;
+    color:#999;
+}
+.dominant .outputting{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    height:44.6rem;
+}
+.dominant .outputting h6{
+    margin:3.2rem 0 1.9rem 0;
+    font-size:1.8rem;
+    color:#26a26f;
+}
+.dominant .outputting p{
+    font-size:1.8rem;
+}
+@media (min-width:480px) and (max-width: 560px){
+    html{
+        font-size:50%;
+    }
+}
+@media (min-width:320px) and (max-width: 480px) {
+    html {
+        font-size:35%;
+    }
+}
+@media screen and (max-width: 320px) {
+    html {
+        font-size:30%;
+    }
+}
