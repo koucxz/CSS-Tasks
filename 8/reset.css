@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+th, td, tr { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+    border:0;
+    outline: 0;
+}
+/* 设置默认字体 */
+body, button, input, select, textarea {
+    font-family: arial,"Microsoft YaHei", serif;
+    line-height:1;
+    outline:none;
+}
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+img{
+    max-width: 100%;
+}
+/* 重置文本格式元素 */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
