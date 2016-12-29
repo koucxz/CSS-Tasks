@@ -1,0 +1,176 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+}
+.footer a{
+    color:white;
+    text-decoration:none;
+}
+a:active{
+    color:white;
+    text-decoration:none;
+}
+body{
+    margin: 0 auto;
+    font-family: arial,"Microsoft YaHei", serif;
+    width:100%;
+    height:1092px;
+}
+.wrap{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    margin: 0 auto;
+    max-width:320px;
+    min-width:640px;
+    background:#fff;
+}
+.header {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+    height:8.6%;
+    width:100%;
+    font-size:3.4rem;
+    line-height:3.4rem;
+    color:white;
+    letter-spacing:0.3rem;
+    padding:0 3.32%;
+    background:#29bde0;
+    border-bottom:1px #74d4eb solid;
+}
+.outcoming{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    height:56.83%;
+    background:#29bde0;
+}
+.winning{
+    display:flex;
+    position:relative;
+    width:352px;
+    height:40%;
+    background-image:url(winning.png);
+    background-size:100%;
+    background-position:0 40%;
+    background-repeat:no-repeat;
+}
+.winning .txt{
+    display:inline-flex;
+    position:absolute;
+    flex-wrap:nowrap;
+    justify-content:center;
+    font-size:48px;
+    color:white;
+    top:58.7%;
+    width:100%;
+    min-width:6.2rem;
+    height:25%;
+}
+.wintip{
+    display:inline-flex;
+    justify-content:center;
+    width:75.2%;
+    height:25.7%;
+    font-size:3.3rem;
+    color:#ffc865;
+}
+.gameinfo{
+    display:inline-flex;
+    justify-content:center;
+    flex-direction:column;
+    width:75.2%;
+    height:37%;
+    font-size:2.6rem;
+    color:white;
+}
+.gameplayers{
+    display:inline-flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.gamedays{
+    width:100%;
+    padding-bottom:200px;
+}
+.gamedays li{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    border-bottom:1px solid #ddd;
+    width:100%;
+}
+.line1{
+    display:inline-flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    width:75.2%;
+    height:4.2rem;
+}
+.gamedays .days{
+    display:inline-flex;
+    font-size:3rem;
+    color:#515151;
+}
+.gamedays .daytime{
+    display:inline-flex;
+    font-size: 2rem;
+    color:#f1f1f1;
+}
+.gamedays .daynight{
+    display:inline-flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction:column;
+    height:12.6rem;
+    font-size:2.6rem;
+    width:75.2%;
+    color:#a6a6a6;
+}
+.bodylong{
+    padding:4.5rem;
+}
+.footer{
+    display:flex;
+    position:fixed;
+    margin:0 auto;
+    bottom:0;
+    justify-content:space-around;
+    align-items:center;
+    height:130px;
+    width:100%;
+    max-width:640px;
+    background:rgba(153,223,240,0.5);
+}
+.footer button{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:42.5%;
+    height:8.4rem;
+    outline:none;
+    border:none;
+    color:white;
+    font-size:4rem;
+    border-radius:0.5rem;
+}
+.footer button.onemore{
+    background:rgba(246,111,111,1);
+}
+.footer button.sharing{
+    background:rgba(251,180,53,1);
+}

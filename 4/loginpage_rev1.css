@@ -1,0 +1,106 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    margin: 0 auto;
+    background-color: #EFF0F4;
+    height:100%;
+    font-family: arial,"Microsoft Yahei",sans-serif;
+}
+
+img{
+    position: relative;
+    max-width: 100%;
+    width: 30px;
+    margin-left: 2.8rem;
+    margin-top: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+input{
+    position: relative;
+    width: 50%;
+    margin-left: 2.3rem;
+    bottom: 0.8rem;
+    padding-left: 2.2rem;
+    font-size: 1.5rem;
+    color: #e1e5e7;
+    outline:none;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 3px solid #eaedee;
+}
+.header{
+    width: 100%;
+    height: 4rem;
+    background-color: #5fc0cd;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+}
+.header_close{
+    position: absolute;
+    display: block;
+    float: left;
+    top: 0.9rem;
+    left: 1rem;
+    font-size: 1.4rem;
+}
+.header h2{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 1%;
+    font-size: 1.6rem;
+}
+.header_register{
+    position: absolute;
+    float: right;
+    top: 0.9rem;
+    right: 1rem;
+    font-size: 1.4rem;
+}
+
+.phonenumber{
+    width: 100%;
+    height: 5rem;
+    background-color:#fff;
+    margin: 2% 0;
+}
+
+.password{
+    width: 100%;
+    height: 5rem;
+    background-color:#fff;
+}
+
+.login{
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    margin-top: 3.5rem;
+    background-color: #5FC0CD;
+    text-align: center;
+}
+.login a{
+    position: relative;
+    display: block;
+    top: 24%;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer{
+    position: relative;
+    margin: 2%;
+    float: right;
+    color: #83ccd7;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
