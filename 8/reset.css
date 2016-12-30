@@ -22,19 +22,77 @@ ul, ol { list-style: none; }
 
 /* 重置文本格式元素 */
 a { text-decoration: none; }
-a:hover { text-decoration: underline; }
-
-abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
-    border-bottom: 1px dotted;
-    cursor: help;
-}
 img{
     max-width: 100%;
 }
-/* 重置文本格式元素 */
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
-abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
-    border-bottom: 1px dotted;
-    cursor: help;
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    height:20.2rem;
+    width:100%;
+    color:white;
+    background:#26a26f;
+}
+.footer a:hover{
+    padding-bottom:3px;
+    border-bottom:1px solid white;
+}
+.footer-top{
+    width:100%;
+    padding:0 15rem;
+}
+.footer-left p{
+    font-size:1.6rem;
+    padding-top:3.6rem;
+    padding-bottom:1rem;
+}
+.footer-left ul {
+    float:left;
+    padding-top:5.5rem;
+}
+.footer-left ul li{
+    display: inline-block;
+}
+.footer-left .verticalline{
+    padding-right:1rem;
+    margin-right:0.9rem;
+    border-right:2px solid white;
+}
+.footer-middle p {
+    font-size:1.6rem;
+    padding-top:3.6rem;
+    padding-bottom:2rem;
+}
+.footer-middle ul {
+    overflow: hidden;
+}
+.footer-middle ul li {
+    float: left;
+    margin:1rem 0;
+    padding-right:3.4rem;
+}
+.footer-right p{
+    font-size:1.6rem;
+    padding-top:3.6rem;
+    padding-bottom:0.6rem;
+}
+.footer-bottom{
+    width: 100%;
+    margin-top:2rem;
+    height:3rem;
+    text-align: center;
+    font-size:1.2rem;
+    color: #fff;
+    line-height:3rem;
+    border-top:1px #32c086 solid;
 }
