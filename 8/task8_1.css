@@ -44,7 +44,10 @@ body{
     flex-direction:column;
     justify-content:flex-start;
     align-items:flex-start;
-    height:44.6rem;
+    padding: 4.3rem 4rem 5rem 4rem;
+    height:24.6rem;
+    margin:15rem 0 5rem;
+    border-left:1px dashed #dedede;
 }
 .dominant .outputting h6{
     margin:3.2rem 0 1.9rem 0;
@@ -234,9 +237,6 @@ body{
     padding:2.5rem 0;
     font-size: 1.8rem;
     color: #333;
-}
-.links{
-    display:inline-block;
 }
 .links ul{
     padding:0 1rem;

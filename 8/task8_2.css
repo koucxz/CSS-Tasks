@@ -1,0 +1,171 @@
+@charset "utf-8";
+body{
+    margin: 0 auto;
+    width:100%;
+    background:#fafafa;
+}
+.menu p{
+    display:inline-block;
+}
+.theme{
+    width:100%;
+    padding:3.2rem 0;
+    font-weight:bold;
+    font-size:1.6rem;
+    border-bottom:1px solid #d0d6d9;
+}
+.buttons{
+    width:100%;
+    padding:2rem 0;
+    font-size:0;
+    border-bottom:1px solid #edf1f2;
+}
+.buttons p{
+    color:#a1a1a1;
+    font-size:1.4rem;
+}
+.buttons button{
+    border:none;
+    background-color:#fafafa;
+    padding:0.3rem;
+    margin:0 1rem;
+    font-size:1.4rem;
+}
+.buttons button:hover{
+    color:white;
+    background:#29b078;
+}
+.colored-29b078{
+    color:#29b078;
+}
+.courses{
+    padding:0 1rem;
+}
+.course{
+    float:left;
+    margin:3rem 0;
+    background:white;
+}
+.course .men {
+    height: 17.6rem;
+    border:1px solid #edf1f2;
+    overflow:hidden;
+}
+.course .men img{
+    display:inline-block;
+    float: left;
+    width:37.4%;
+    margin:2.1rem 1rem;
+}
+.course .men h3{
+    margin: 3.5rem 0 1rem 0;
+    width: 100%;
+    font-weight:bold;
+    font-size:1.6rem;
+}
+.course .men p{
+    width: 56%;
+    font-size:1.4rem;
+    line-height:1.2;
+}
+.course .td .glyphicon-star{
+    color:#ff5c00;
+}
+.course .td .td-content:nth-child(1){
+    display: inline-block;
+    border-right:1px solid #edf1f2;
+    width: 50%;
+}
+.course .td .td-content:nth-child(2){
+    display: inline-block;
+    border:none;
+}
+.course .td{
+    border:1px solid #edf1f2;
+    border-top: none;
+    text-align: left;
+    text-indent: 0.8rem;
+    height: 4rem;
+    line-height:4rem;
+}
+.course span{
+    color:#f01400;
+}
+.course .td-row{
+    text-align: center;
+    border:1px solid #edf1f2;
+    /*border-top: none;*/
+    border-bottom: none;
+    height: 4rem;
+    line-height:4rem;
+}
+.gray{
+    color: #999;
+}
+.course .row{
+    margin: 0;
+}
+.money .money-right{
+    text-align: right;
+    display: inline-block;
+    width: 45%;
+
+}
+.money .money-right div:nth-child(odd){
+    text-align: left;
+    text-indent: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+.money .money-right div:nth-child(even){
+    text-align: right;
+    padding-right: 0;
+    height: 30px;
+    line-height: 30px;
+}
+.money .money-left{
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+    width: 40%;
+    float: left;
+    border-right:1px solid #edf1f2;
+}
+.money{
+    height: 90px;
+}
+.money{
+    border:1px solid #edf1f2;
+    border-top: none;
+    border-bottom: none;
+}
+.introduction {
+    position:absolute;
+    top:3rem;
+    width:95%;
+    height:88%;
+    font-size: 1.6rem;
+    color: white;
+    display:none;
+    background: rgba(0,0,0,0.76);
+}
+.course:hover .introduction {
+    display:block;
+}
+.course .introduction ul li {
+    line-height: 2.2rem;
+    list-style: none;
+}
+.course .introduction ul li h3 {
+    padding:7rem 0 4rem 0;
+    text-align: center;
+    font-size:1.6rem;
+    border-bottom: none;
+}
+.course .introduction ul li p {
+    padding: 0 4.2rem;
+    text-indent: 1.5rem;
+    font-size:1.6rem;
+    text-align:left;
+}
+
