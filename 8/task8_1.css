@@ -5,14 +5,13 @@ body{
     background:#fafafa;
 }
 .container{
-    width:1200px;
     margin: 0 auto;
 }
 .dominant{
     width:100%;
     font-size:0;
 }
-.dominant .col-sm-3{
+.dominant .dom_strength{
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
@@ -44,7 +43,7 @@ body{
     flex-direction:column;
     justify-content:flex-start;
     align-items:flex-start;
-    padding: 4.3rem 4rem 5rem 4rem;
+    padding: 4.3rem 0 5rem 8rem;
     height:24.6rem;
     margin:15rem 0 5rem;
     border-left:1px dashed #dedede;
@@ -58,10 +57,6 @@ body{
     font-size:1.8rem;
 }
 .learnstep{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
     width:100%;
     height:44.6rem;
     font-size:0;
@@ -74,19 +69,13 @@ body{
     height:4.4rem;
     font-size:1.8rem;
 }
-.learnstep .stepformer{
+.learnstep .steps{
     display:flex;
-    width:100%;
-    height:16.8rem;
-}
-.learnstep .stepformer .col-sm-3{
-    display:flex;
-    flex-wrap:nowrap;
     justify-content:center;
     align-items:center;
-    padding-right:0.5rem;
+    padding:4.6rem 0.5rem;
 }
-.learnstep .stepformer .col-sm-3 h5{
+.learnstep .steps h5{
     display:inline-flex;
     justify-content:center;
     align-items:center;
@@ -98,7 +87,7 @@ body{
     border-radius:50%;
     box-shadow: 0 0 4px 0 #ddd;
 }
-.learnstep .stepformer .col-sm-3 p {
+.learnstep .steps p {
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
@@ -114,12 +103,13 @@ body{
 }
 .outstandings h4{
     display:flex;
+    width:100%;
     justify-content:center;
     align-items:center;
     height:10.4rem;
     font-size:1.8rem;
 }
-.outstandings .col-sm-3{
+.outstandings .outstander{
     display:flex;
     justify-content:center;
     align-items:center;
@@ -206,10 +196,9 @@ body{
 }
 .partners .companies{
     display:flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     justify-content:space-around;
     align-items:center;
-    height:17.6rem;
     width:97.4%;
     margin:7rem 3rem 7rem 0;
     background:#fff;
@@ -220,8 +209,9 @@ body{
     display:inline-flex;
     align-items:center;
     justify-content:center;
-    height:17.6rem;
-    width:22rem;
+    margin:0.3rem 0;
+    height:14.6rem;
+    width:18.2rem;
     overflow:hidden;
 }
 .partners .imgcover:hover {

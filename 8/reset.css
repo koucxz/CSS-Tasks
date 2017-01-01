@@ -45,11 +45,14 @@ a:hover {
 }
 .clearfix:after { clear: both; } /* For IE 6/7 (trigger hasLayout) */
 .clearfix { zoom: 1; }
-/*公用页头页脚*/
+
+body{
+    min-width:320px;
+}
 .container{
-    width:1200px;
     margin: 0 auto;
 }
+/*公用页头页脚*/
 .header {
     display: flex;
     flex-direction:column;
@@ -78,7 +81,7 @@ a:hover {
 .header-contact .apps{
     display:inline-flex;
     justify-content:space-between;
-    width:9.2%;
+    width:11rem;
 }
 .header-nav{
     display:flex;
@@ -93,7 +96,7 @@ a:hover {
 .header-nav ul{
     display:inline-flex;
     flex-wrap:nowrap;
-    width:40%;
+    width:35rem;
     font-size:1.6rem;
     color:white;
 }
@@ -148,6 +151,7 @@ a:hover {
 }
 .footer-left ul li{
     display: inline-block;
+    line-height:1.3;
 }
 .footer-left .verticalline{
     padding-right:1rem;

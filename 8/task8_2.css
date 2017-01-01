@@ -142,15 +142,18 @@ body{
 .introduction {
     position:absolute;
     top:3rem;
-    width:95%;
-    height:88%;
+    width:0;
+    height:0;
     font-size: 1.6rem;
     color: white;
-    display:none;
+    transition: 1s height;
+    overflow:hidden;
     background: rgba(0,0,0,0.76);
 }
 .course:hover .introduction {
-    display:block;
+    opacity:0.76;
+    width:95%;
+    height:88%;
 }
 .course .introduction ul li {
     line-height: 2.2rem;
