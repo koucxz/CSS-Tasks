@@ -1,0 +1,250 @@
+@charset "utf-8";
+body{
+    margin: 0 auto;
+    width:100%;
+    background:#fafafa;
+}
+.container{
+    margin: 0 auto;
+}
+.dominant{
+    width:100%;
+    font-size:0;
+}
+.dominant .dom_strength{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    padding:16.3rem 4rem 0 4rem;
+    height:44.6rem;
+}
+.dominant .icon-tag{
+    display:inline-flex;
+    align-items:center;
+    height:62px;
+}
+.dominant img{
+    display:inline-flex;
+}
+.dominant h5{
+    display:inline-flex;
+    margin:3.4rem 0;
+    font-size:1.8rem;
+}
+.dominant p{
+    display:inline-flex;
+    font-size:1.6rem;
+    line-height:1.4;
+    color:#999;
+}
+.dominant .outputting{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 4.3rem 0 5rem 8rem;
+    height:24.6rem;
+    margin:15rem 0 5rem;
+    border-left:1px dashed #dedede;
+}
+.dominant .outputting h6{
+    margin:3.2rem 0 1.9rem 0;
+    font-size:1.8rem;
+    color:#26a26f;
+}
+.dominant .outputting p{
+    font-size:1.8rem;
+}
+.learnstep{
+    width:100%;
+    height:44.6rem;
+    font-size:0;
+}
+.learnstep h4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:4.4rem;
+    font-size:1.8rem;
+}
+.learnstep .steps{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:4.6rem 0.5rem;
+}
+.learnstep .steps h5{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    padding:2.64rem 3.1rem;
+    margin-right:1rem;
+    font-size:1.8rem;
+    color:#29b078;
+    background-color:white;
+    border-radius:50%;
+    box-shadow: 0 0 4px 0 #ddd;
+}
+.learnstep .steps p {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right:1.2rem;
+    width:15.88rem;
+    font-size:1.4rem;
+    line-height:1.5;
+    color:#999;
+}
+.outstandings{
+    width:100%;
+    font-size:0;
+}
+.outstandings h4{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    height:10.4rem;
+    font-size:1.8rem;
+}
+.outstandings .outstander{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:43rem;
+}
+.outstandings .intros{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:37rem;
+    width:27.4rem;
+    padding:0 3rem;
+    margin-left:-1.5rem;
+    font-size:0;
+    background:white;
+    border-radius:5px;
+    box-shadow: 0 0 4px 0 #ddd;
+}
+.outstandings .photo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:2.1rem 0;
+    width:10rem;
+    height:10rem;
+    overflow:hidden;
+    border-radius:50%;
+}
+.outstandings img{
+    display:flex;
+    max-width:150%;
+}
+.outstandings h5{
+    display:inline-flex;
+    align-items:center;
+    font-size:1.8rem;
+    height:7rem;
+}
+.outstandings p{
+    display:inline-flex;
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#999;
+}
+.circles{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:1rem;
+    font-size:0;
+}
+.circles .circle1{
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.7rem;
+    background: #29b078;
+    margin: 0 0.5rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circles .circle2{
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.7rem;
+    background: #fff;
+    margin: 0 0.5rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 0 #ddd;
+}
+.partners{
+    width:100%;
+    font-size:0;
+}
+.partners h4{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    height:10.4rem;
+    font-size:1.8rem;
+}
+.partners .companies{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    width:97.4%;
+    margin:7rem 3rem 7rem 0;
+    background:#fff;
+    overflow:hidden;
+    box-shadow: 0 0 4px 0 #ddd;
+}
+.partners .imgcover{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin:0.3rem 0;
+    height:14.6rem;
+    width:18.2rem;
+    overflow:hidden;
+}
+.partners .imgcover:hover {
+    border-radius: 3px;
+    box-shadow: 0 0 10px 2px #ddd;
+}
+.youqinglianjie {
+    background: #fff;
+    padding:0 10.8%;
+}
+.youqinglianjie h4{
+    text-align: center;
+    padding:2.5rem 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+.links ul{
+    padding:0 1rem;
+}
+.links ul li {
+    float: left;
+    text-align:left;
+    margin:0 2.7rem;
+    padding-bottom:1.6rem;
+    font-size: 1.4rem;
+    letter-spacing:0.16rem;
+    color:#999;
+    list-style-type: disc;
+}
+.links a{
+    color: #999;
+    text-decoration:none;
+}
+.links a:hover{
+    border-bottom:1px solid #26c06f;
+}
