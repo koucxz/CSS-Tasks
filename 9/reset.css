@@ -14,9 +14,6 @@ body, button, input, select, textarea {
     line-height:1;
     outline:none;
 }
-body{
-    min-width:320px;
-}
 /* 重置列表元素 */
 ul, ol { list-style: none; }
 
