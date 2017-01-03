@@ -71,6 +71,7 @@ body{
 }
 .learnstep .steps{
     display:flex;
+    display: -ms-flexbox;
     justify-content:center;
     align-items:center;
     padding:4.6rem 0.5rem;
@@ -196,6 +197,7 @@ body{
 }
 .partners .companies{
     display:flex;
+    display: -ms-flexbox;
     flex-wrap:wrap;
     justify-content:space-around;
     align-items:center;
