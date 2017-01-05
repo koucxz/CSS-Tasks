@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*字体大小*/
+/*字体颜色*/
+/*背景颜色*/
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 248px;
+  font-family: arial,"Microsoft Yahei",sans-serif;
+  line-height: 1;
+  background: #eff0f4; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+  a:hover {
+    color: #ddd; }
+
+input {
+  padding: 1.2rem 0;
+  font-size: 3.2rem;
+  color: #e9eced;
+  outline: none;
+  text-indent: 5%;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 3px solid #eaedee; }
+
+img {
+  padding: 0 2% 0 3%;
+  margin-top: -1.5rem;
+  vertical-align: middle;
+  width: 5%;
+  max-height: 42px;
+  max-width: 29px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #5fc0cd; }
+  .header h5 {
+    text-align: center;
+    padding: 2.6rem 0;
+    margin: 0;
+    font-size: 3.6rem;
+    font-weight: normal; }
+  .header .header_close {
+    padding: 3rem;
+    font-size: 3.2rem; }
+  .header .header_register {
+    padding: 3rem;
+    font-size: 3.2rem; }
+
+.phonenumber {
+  padding: 1.7rem 0;
+  margin: 2% 0;
+  background-color: white; }
+
+.password {
+  padding: 1.7rem 0;
+  background-color: white; }
+
+.login {
+  text-align: center;
+  padding: 3.2rem 0;
+  margin-top: 7rem;
+  width: 100%;
+  background-color: #5fc0cd;
+  border: none; }
+
+.login a {
+  padding: 3.2rem 40%;
+  font-size: 3.6rem;
+  font-family: "Microsoft Yahei"; }
+
+.footer {
+  margin: 2%;
+  float: right;
+  font-size: 3.2rem; }
+  .footer a {
+    color: #5fc0cd; }
+
+@media (min-width: 360px) and (max-width: 480px) {
+  html {
+    font-size: 45%; } }
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33%; } }
+
+/*# sourceMappingURL=task11.css.map */

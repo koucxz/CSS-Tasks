@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/*字体大小*/
+$fontsize: 3.2rem;
+
+/*字体颜色*/
+$color: white;
+$color-input: #e9eced;
+$color-keytip: #5fc0cd;
+$linkcolor: #fff #ddd!default;
+
+$baselineheight:1!default;
+
+/*背景颜色*/
+$background:#eff0f4;
+$background-header:#5fc0cd;
+$background-input:white;
+
+html{
+  font-size:62.5%;
+}
+body{
+  margin: 0 auto;
+  width:100%;
+  min-width:248px;
+  font-family: arial,"Microsoft Yahei",sans-serif;
+  line-height: $baselineheight;
+  background: $background;
+}
+a{
+  color:nth($linkcolor,1);
+  text-decoration: none;
+  &:hover{
+    color:nth($linkcolor,2);
+  }
+}
+input{
+  padding:1.2rem 0;
+  font-size:$fontsize;
+  color: $color-input;
+  outline:none;
+  text-indent: 5%;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 3px solid #eaedee;
+}
+img{
+  padding:0 2% 0 3%;
+  margin-top:-1.5rem;
+  vertical-align:middle;
+  width:5%;
+  max-height:42px;
+  max-width:29px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  color: $color;
+  background-color: $background-header;
+  h5 {
+    text-align: center;
+    padding: 2.6rem 0;
+    margin:0;
+    font:{
+      size:$fontsize + 0.4rem;
+      weight:normal;
+    }
+  }
+  .header_close {
+    padding:3rem;
+    font-size: $fontsize;
+  }
+  .header_register{
+    padding:3rem ;
+    font-size: $fontsize;
+  }
+}
+
+.phonenumber{
+  padding:1.7rem 0;
+  margin: 2% 0;
+  background-color:$background-input;
+}
+
+.password{
+  padding:1.7rem 0;
+  background-color:$background-input;
+}
+
+.login{
+  text-align: center;
+  padding:3.2rem 0;
+  margin-top: 7rem;
+  width:100%;
+  background-color:$background-header;
+  border:none;
+}
+.login a{
+  padding:3.2rem 40%;
+  font:{
+    size:$fontsize + 0.4rem;
+    family:"Microsoft Yahei";
+  }
+}
+.footer{
+  margin: 2%;
+  float: right;
+  font-size: $fontsize;
+  a{
+    color: $color-keytip;
+  }
+}
+@media (min-width: 360px) and (max-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33%;
+  }
+}
