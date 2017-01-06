@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import "reset.css";
+/*字体大小*/
+$fontSize: 3.2rem;
+
+/*字体颜色*/
+$color: white;
+
+$linkColor: #fff #ddd!default;
+
+$baseLineHeight:1!default;
+
+/*背景颜色*/
+$backGround:#eff0f4;
+$backGround-header:#5fc0cd;
+
+/*边框圆角尺寸*/
+$borderRadius:5px;
+$borderRadiusRound:50%;
+
+.header{
+  width:100%;
+  background:$backGround-header;
+  color:$color;
+  .back{
+    position:absolute;
+    padding:2.2rem 3.5rem;
+  }
+  h2{
+    text-align: center;
+    padding:2.2rem 0;
+    font-size: $fontSize + 0.4rem;
+    font-weight:normal;
+  }
+}
+.intro{
+  background-image:url(bgintro.png);
+  background-size:cover;
+  color:$color;
+  .aide{
+    float: left;
+    padding:8rem 3rem;
+    border-radius:$borderRadiusRound;
+  }
+  @media (min-width: 400px) and (max-width: 480px) {
+    .aide {
+      width:140px;
+      height:140px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .aide {
+      padding:8rem 1.5rem;
+      width:110px;
+      height:110px;
+    }
+  }
+
+  .text{
+    float: left;
+    padding:11.7rem 0 0 4rem;
+    .age{
+      font-size:$fontSize - 0.4rem;
+      span{
+        font-size:$fontSize + 0.4rem;
+        margin-right:3rem;
+      }
+    }
+    .location{
+      margin-top:2.5rem;
+      font-size:$fontSize - 0.8rem;
+      img{
+        padding-right:1.8rem;
+      }
+    }
+  }
+}

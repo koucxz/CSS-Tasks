@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url(reset.css);
+/*字体大小*/
+/*字体颜色*/
+/*背景颜色*/
+/*边框圆角尺寸*/
+.header {
+  width: 100%;
+  background: #5fc0cd;
+  color: white; }
+  .header .back {
+    position: absolute;
+    padding: 2.2rem 3.5rem; }
+  .header h2 {
+    text-align: center;
+    padding: 2.2rem 0;
+    font-size: 3.6rem;
+    font-weight: normal; }
+
+.intro {
+  background-image: url(bgintro.png);
+  background-size: cover;
+  color: white; }
+  .intro .aide {
+    float: left;
+    padding: 8rem 3rem;
+    border-radius: 50%; }
+  @media (min-width: 400px) and (max-width: 480px) {
+    .intro .aide {
+      width: 140px;
+      height: 140px; } }
+  @media screen and (max-width: 400px) {
+    .intro .aide {
+      padding: 8rem 1.5rem;
+      width: 110px;
+      height: 110px; } }
+  .intro .text {
+    float: left;
+    padding: 11.7rem 0 0 4rem; }
+    .intro .text .age {
+      font-size: 2.8rem; }
+      .intro .text .age span {
+        font-size: 3.6rem;
+        margin-right: 3rem; }
+    .intro .text .location {
+      margin-top: 2.5rem;
+      font-size: 2.4rem; }
+      .intro .text .location img {
+        padding-right: 1.8rem; }
+
+/*# sourceMappingURL=task12-1.css.map */
