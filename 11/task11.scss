@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /*字体大小*/
-$fontsize: 3.2rem;
+$fontSize: 3.2rem;
 
 /*字体颜色*/
 $color: white;
 $color-input: #e9eced;
 $color-keytip: #5fc0cd;
-$linkcolor: #fff #ddd!default;
+$linkColor: #fff #ddd!default;
 
-$baselineheight:1!default;
+$baseLineHeight:1!default;
 
 /*背景颜色*/
 $background:#eff0f4;
@@ -27,24 +27,26 @@ html{
   html {
     font-size: 33%;
   }
+}
+
 body{
   margin: 0 auto;
   width:100%;
   min-width:248px;
   font-family: arial,"Microsoft Yahei",sans-serif;
-  line-height: $baselineheight;
+  line-height: $baseLineHeight;
   background: $background;
 }
 a{
-  color:nth($linkcolor,1);
+  color:nth($linkColor,1);
   text-decoration: none;
   &:hover{
-    color:nth($linkcolor,2);
+    color:nth($linkColor,2);
   }
 }
 input{
   padding:1.2rem 0;
-  font-size:$fontsize;
+  font-size:$fontSize;
   color: $color-input;
   outline:none;
   text-indent: 5%;
@@ -74,17 +76,17 @@ img{
     padding: 2.6rem 0;
     margin:0;
     font:{
-      size:$fontsize + 0.4rem;
+      size:$fontSize + 0.4rem;
       weight:normal;
     }
   }
   .header_close {
     padding:3rem;
-    font-size: $fontsize;
+    font-size: $fontSize;
   }
   .header_register{
     padding:3rem ;
-    font-size: $fontsize;
+    font-size: $fontSize;
   }
 }
 
@@ -109,16 +111,15 @@ img{
   a {
     padding: 3.2rem 40%;
     font: {
-      size: $fontsize + 0.4rem;
+      size: $fontSize + 0.4rem;
       family: "Microsoft Yahei";
     }
   }
 }
+
 .footer{
   margin: 2%;
   float: right;
-  font-size: $fontsize;
-  a{
-    color: $color-keytip;
-  }
+  font-size: $fontSize;
+  color: $color-keytip;
 }
