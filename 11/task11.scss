@@ -18,6 +18,15 @@ $background-input:white;
 html{
   font-size:62.5%;
 }
+@media (min-width: 360px) and (max-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 33%;
+  }
 body{
   margin: 0 auto;
   width:100%;
@@ -111,15 +120,5 @@ img{
   font-size: $fontsize;
   a{
     color: $color-keytip;
-  }
-}
-@media (min-width: 360px) and (max-width: 480px) {
-  html {
-    font-size: 45%;
-  }
-}
-@media screen and (max-width: 360px) {
-  html {
-    font-size: 33%;
   }
 }
