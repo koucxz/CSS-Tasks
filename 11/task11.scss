@@ -39,10 +39,12 @@ input{
   color: $color-input;
   outline:none;
   text-indent: 5%;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 0;
-  border-left: 3px solid #eaedee;
+  border:{
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 3px solid #eaedee;
+  }
 }
 img{
   padding:0 2% 0 3%;
