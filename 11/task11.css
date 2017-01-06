@@ -25,9 +25,9 @@ input {
   color: #e9eced;
   outline: none;
   text-indent: 5%;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 0;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
   border-left: 3px solid #eaedee; }
 
 img {
