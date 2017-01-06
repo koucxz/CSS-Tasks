@@ -37,19 +37,19 @@ $borderRadiusRound:50%;
   color:$color;
   background-image:url(img/bgintro.png);
   background-size:cover;
-  .aide{
+  .icon-header{
     float: left;
     padding:8rem 3rem;
     border-radius:$borderRadiusRound;
   }
   @media (min-width: 400px) and (max-width: 480px) {
-    .aide {
+    .icon-header {
       width:140px;
       height:140px;
     }
   }
   @media screen and (max-width: 400px) {
-    .aide {
+    .icon-header {
       padding:8rem 1.5rem;
       width:110px;
       height:110px;

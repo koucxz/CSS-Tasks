@@ -21,16 +21,16 @@
   color: white;
   background-image: url(img/bgintro.png);
   background-size: cover; }
-  .intro .aide {
+  .intro .icon-header {
     float: left;
     padding: 8rem 3rem;
     border-radius: 50%; }
   @media (min-width: 400px) and (max-width: 480px) {
-    .intro .aide {
+    .intro .icon-header {
       width: 140px;
       height: 140px; } }
   @media screen and (max-width: 400px) {
-    .intro .aide {
+    .intro .icon-header {
       padding: 8rem 1.5rem;
       width: 110px;
       height: 110px; } }
@@ -40,6 +40,7 @@
     .intro .text .age {
       font-size: 2.8rem; }
       .intro .text .age span {
+        margin-right: 3rem;
         font-size: 3.6rem; }
     .intro .text .location {
       margin-top: 2.5rem;
