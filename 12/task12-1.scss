@@ -20,8 +20,8 @@ $borderRadiusRound:50%;
 
 .header{
   width:100%;
-  background:$backGround-header;
   color:$color;
+  background:$backGround-header;
   .back{
     position:absolute;
     padding:2.2rem 3.5rem;
@@ -34,9 +34,9 @@ $borderRadiusRound:50%;
   }
 }
 .intro{
-  background-image:url(bgintro.png);
-  background-size:cover;
   color:$color;
+  background-image:url(img/bgintro.png);
+  background-size:cover;
   .aide{
     float: left;
     padding:8rem 3rem;
@@ -62,8 +62,8 @@ $borderRadiusRound:50%;
     .age{
       font-size:$fontSize - 0.4rem;
       span{
-        font-size:$fontSize + 0.4rem;
         margin-right:3rem;
+        font-size:$fontSize + 0.4rem;
       }
     }
     .location{

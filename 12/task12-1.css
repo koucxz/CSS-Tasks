@@ -6,8 +6,8 @@
 /*边框圆角尺寸*/
 .header {
   width: 100%;
-  background: #5fc0cd;
-  color: white; }
+  color: white;
+  background: #5fc0cd; }
   .header .back {
     position: absolute;
     padding: 2.2rem 3.5rem; }
@@ -18,9 +18,9 @@
     font-weight: normal; }
 
 .intro {
-  background-image: url(bgintro.png);
-  background-size: cover;
-  color: white; }
+  color: white;
+  background-image: url(img/bgintro.png);
+  background-size: cover; }
   .intro .aide {
     float: left;
     padding: 8rem 3rem;
@@ -40,8 +40,7 @@
     .intro .text .age {
       font-size: 2.8rem; }
       .intro .text .age span {
-        font-size: 3.6rem;
-        margin-right: 3rem; }
+        font-size: 3.6rem; }
     .intro .text .location {
       margin-top: 2.5rem;
       font-size: 2.4rem; }
