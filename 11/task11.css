@@ -3,7 +3,8 @@
 /*字体颜色*/
 /*背景颜色*/
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background: white; }
 
 @media (min-width: 360px) and (max-width: 480px) {
   html {
@@ -13,8 +14,10 @@ html {
     font-size: 33%; } }
 body {
   margin: 0 auto;
+  padding-bottom: 24rem;
   width: 100%;
-  min-width: 248px;
+  max-width: 640px;
+  min-width: 320px;
   font-family: arial,"Microsoft Yahei",sans-serif;
   line-height: 1;
   background: #eff0f4; }
@@ -62,13 +65,9 @@ img {
     padding: 3rem;
     font-size: 3.2rem; }
 
-.phonenumber {
+form {
   padding: 1.7rem 0;
-  margin: 2% 0;
-  background-color: white; }
-
-.password {
-  padding: 1.7rem 0;
+  margin: 2% 0.5rem 0;
   background-color: white; }
 
 .login {
@@ -84,9 +83,10 @@ img {
     font-family: "Microsoft Yahei"; }
 
 .footer {
-  margin: 2%;
-  float: right;
-  font-size: 3.2rem;
-  color: #5fc0cd; }
+  padding: 2%;
+  float: right; }
+  .footer a {
+    font-size: 3.2rem;
+    color: #5fc0cd; }
 
 /*# sourceMappingURL=task11.css.map */

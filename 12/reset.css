@@ -3,16 +3,21 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构�
 dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
 pre, /* text formatting elements 文本格式元素 */
 th, td, tr { /* table elements 表格元素 */
-    margin: 0;
-    padding: 0;
-    border:0;
-    outline: 0;
+	margin: 0;
+	padding: 0;
+	border:0;
+	outline: 0;
 }
 /* 设置默认字体 */
 body, button, input, select, textarea {
-    font-family: arial,"Microsoft YaHei", serif;
-    line-height:1;
-    outline:none;
+	font-family: arial,"Microsoft YaHei", serif;
+	line-height:1;
+	outline:none;
+}
+/*按钮边界与鼠标样式*/
+button{
+	cursor:pointer;
+	border:none;
 }
 /* 重置列表元素 */
 ul, ol { list-style: none; }
@@ -20,39 +25,38 @@ ul, ol { list-style: none; }
 /* 重置文本格式元素 */
 a { text-decoration: none; }
 img{
-    max-width: 100%;
+	max-width: 100%;
 }
 a:link {
-    text-decoration: none;
+	text-decoration: none;
 }
 a:visited {
-    text-decoration: none;
+	text-decoration: none;
 }
 a:hover {
-
-    text-decoration: none;
+	text-decoration: none;
 }
 /*清除浮动*/
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+	content: " ";
+	display: table;
 }
 .clearfix:after { clear: both; } /* For IE 6/7 (trigger hasLayout) */
 .clearfix { zoom: 1; }
 
 html{
-	font-size:62.5%;
+font-size:62.5%;
 }
 @media (min-width: 400px) and (max-width: 480px) {
-	html {
-		font-size: 45%;
-	}
+html {
+	font-size: 45%;
+}
 }
 @media screen and (max-width: 400px) {
-	html {
-		font-size: 33%;
-	}
+html {
+	font-size: 33%;
+}
 }
 
 img{
@@ -61,12 +65,12 @@ img{
 }
 body{
 	margin:0 auto;
-	min-width: 320px;
+	min-width:320px;
+	max-width:720px;
 	width:100%;
 }
 .container{
 	margin: 0 auto;
 	background-color: #fff;
-	max-width:720px;
 	overflow:hidden;
 }
