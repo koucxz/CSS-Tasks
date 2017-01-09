@@ -1,0 +1,107 @@
+.header button{
+	float: left;
+	padding: 20px 23px;
+	border: none;
+	background: transparent;
+}
+
+.main{
+	font-size: 3.4rem;
+	background: #f0f0f0;
+}
+
+.former{
+	position: relative;
+	width: 88.75%;
+	margin: 2.8rem auto;
+	background: #fff;
+	border: 1px #cbcbcb solid;
+}
+.former p{
+	padding: 4.2rem 0;
+	font-size: 3.4rem;
+	color: #9a9a9a;
+}
+.former .back{
+	position: absolute;
+	top: 4rem;
+	right:1.4rem;
+	width: 4%;
+}
+
+.gamepad{
+	width: 88.75%;
+	margin: 2.8rem auto 6.2rem;
+	background: #fff;
+	border: 1px #cbcbcb solid;
+}
+.gamepad h3{
+	color: #fbb435;
+	padding: 2.8rem 0 3rem;
+	font-size: 3.8rem;
+	border-bottom: 2px solid #fbb435;
+}
+.gamepad ul{
+	position: relative;
+	width: 81.4%;
+	margin: 0 auto;
+}
+.gamepad .btn-gamestart{
+	padding: 5.1rem 0;
+	margin: 3rem 0;
+	width: 100%;
+	color: white;
+	font-size: 3.2rem;
+	background:#69d1e9;
+}
+.gamepad .players{
+	color:#9a9a9a;
+	font-size:2.4rem;
+	letter-spacing:1px;
+}
+.triangle-right{
+	position: absolute;
+	top:41%;
+	right:-40px;
+	width: 0;
+	height: 0;
+	border-top: 2.8rem solid transparent;
+	border-left: 2.8rem solid #fbb435;
+	border-bottom: 2.8rem solid transparent;
+}
+@media (min-width: 400px) and (max-width: 480px) {
+	.triangle-right{
+		top:42%;
+		right:-30px;
+		border-top: 2rem solid transparent;
+		border-left: 2rem solid #fbb435;
+		border-bottom: 2rem solid transparent;
+	}
+}
+@media screen and (max-width: 400px) {
+	.triangle-right{
+		top:43%;
+		right:-25px;
+		border-top: 2rem solid transparent;
+		border-left: 2rem solid #fbb435;
+		border-bottom: 2rem solid transparent;
+	}
+}
+.circles{
+	margin-top:1.6rem;
+	margin-bottom:1.2rem;
+}
+.circle{
+	display:inline-block;
+	width: 1.7rem;
+	height: 1.7rem;
+	background:#f0f0f0;
+	margin:0 0.5rem;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.circle:hover{
+	background: #69d1e9;
+}
+
