@@ -12,13 +12,13 @@ th, td, tr { /* table elements 表格元素 */
 }
 /* 设置默认字体 */
 body, button, input, select, textarea {
-	font-family: arial,"Hiragino Sans GB", serif;
+	font-family: "Hiragino Sans GB","Microsoft Yahei",serif;
 	line-height:1;
 	outline:none;
 }
 html {
 	font-size: 62.5%;
-	font-family: "Hiragino Sans GB", serif;
+	font-family: "Hiragino Sans GB","Microsoft Yahei",serif;
 }
 
 @media (min-width: 400px) and (max-width: 480px) {
