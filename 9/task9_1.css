@@ -159,7 +159,7 @@ body{
 .circles{
     display:flex;
     justify-content:center;
-    align-items:center;
+    align-items:flex-end;
     padding:1rem;
     font-size:0;
 }
@@ -191,7 +191,7 @@ body{
 .partners h4{
     display:flex;
     justify-content:center;
-    align-items:flex-end;
+    align-items:center;
     height:10.4rem;
     font-size:1.8rem;
 }
