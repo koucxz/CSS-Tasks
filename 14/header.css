@@ -50,7 +50,7 @@
 	justify-content:space-between;
 	width:11rem;
 }
-.navbar{
+.header-nav{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
