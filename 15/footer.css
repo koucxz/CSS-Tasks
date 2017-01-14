@@ -12,7 +12,7 @@
 	border-bottom: 1px solid white;
 }
 .footer-top {
-	padding: 0 14%;
+	padding: 0 11%;
 }
 .footer-left {
 	float: left;
@@ -44,7 +44,7 @@
 	padding-bottom: 2rem;
 }
 .footer-middle ul {
-	overflow: hidden;
+	float:left;
 }
 .footer-middle ul li {
 	margin: 1rem 0;
