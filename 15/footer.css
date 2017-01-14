@@ -17,7 +17,6 @@
 .footer-left {
 	float: left;
 	padding: 3.6rem 0 1rem;
-	width: 45%;
 	font-size: 1.6rem;
 }
 .footer-left ul {
@@ -35,7 +34,6 @@
 }
 .footer-middle {
 	float: left;
-	width: 35%;
 	font-size: 1.4rem;
 }
 .footer-middle p {
@@ -48,12 +46,12 @@
 }
 .footer-middle ul li {
 	margin: 1rem 0;
+	line-height:1.2;
 	padding-right: 3.4rem;
 }
 .footer-right {
 	float: left;
-	text-align: left;
-	width: 20%;
+	text-align: right;
 }
 .footer-right p {
 	padding: 3.6rem 0 0.6rem;
