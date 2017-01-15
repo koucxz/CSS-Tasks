@@ -5,10 +5,11 @@
 }
 body{
     margin: 0 auto;
-    background-color: #EFF0F4;
     width:100%;
+		max-width:640px;
     min-width: 240px;
     font-family: arial,"Microsoft Yahei",sans-serif;
+		background-color: #EFF0F4;
 }
 html{
     font-size:62.5%;
@@ -19,7 +20,7 @@ img{
     max-height:42px;
     max-width:29px;
     width:5%;
-    padding:3rem 2% 0 3%;
+    padding:0 2% 0 3%;
 }
 a{
     text-decoration: none;
@@ -47,6 +48,7 @@ input{
     border-left: 3px solid #eaedee;
 }
 .header{
+		position: relative;
     width: 100%;
     background-color: #5fc0cd;
     color: #fff;
