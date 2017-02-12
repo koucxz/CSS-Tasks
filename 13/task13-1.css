@@ -13,31 +13,31 @@
 .former{
 	position: relative;
 	width: 88.75%;
-	margin: 2.8rem auto;
+	margin: 4.4% auto;
 	background: #fff;
 	border: 1px #cbcbcb solid;
 }
 .former p{
-	padding: 4.2rem 0;
+	padding: 8.5% 0;
 	font-size: 3.4rem;
 	color: #9a9a9a;
 }
 .former .back{
 	position: absolute;
-	top: 4rem;
+	top: 37%;
 	right:1.4rem;
 	width: 4%;
 }
 
 .gamepad{
 	width: 88.75%;
-	margin: 2.8rem auto 6.2rem;
+	margin: 4.4% auto 9.7%;
 	background: #fff;
 	border: 1px #cbcbcb solid;
 }
 .gamepad h3{
 	color: #fbb435;
-	padding: 2.8rem 0 3rem;
+	padding: 5% 0 5.3%;
 	font-size: 3.8rem;
 	border-bottom: 2px solid #fbb435;
 }
@@ -47,8 +47,8 @@
 	margin: 0 auto;
 }
 .gamepad .btn-gamestart{
-	padding: 5.1rem 0;
-	margin: 3rem 0;
+	padding: 11% 0;
+	margin: 6.5% 0;
 	width: 100%;
 	color: white;
 	font-size: 3.2rem;
@@ -71,7 +71,7 @@
 }
 @media (min-width: 400px) and (max-width: 480px) {
 	.triangle-right{
-		top:42%;
+		top:39%;
 		right:-30px;
 		border-top: 2rem solid transparent;
 		border-left: 2rem solid #fbb435;
@@ -80,7 +80,7 @@
 }
 @media screen and (max-width: 400px) {
 	.triangle-right{
-		top:43%;
+		top:37%;
 		right:-25px;
 		border-top: 2rem solid transparent;
 		border-left: 2rem solid #fbb435;
@@ -88,8 +88,8 @@
 	}
 }
 .circles{
-	margin-top:1.6rem;
-	margin-bottom:1.2rem;
+	margin-top:3.5%;
+	margin-bottom:2.6%;
 }
 .circle{
 	display:inline-block;

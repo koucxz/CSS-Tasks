@@ -105,7 +105,7 @@
 }
 
 /*投票hover浮动小图标*/
-.statusblock:hover .icon {
+.statusblocks:hover .icon {
 	display: inline-block;
 }
 .icon {
@@ -116,6 +116,7 @@
 	width: 68%;
 	height: 3rem;
 }
+
 .icon span {
 	display: inline-block;
 	margin-right: 4%;
