@@ -33,10 +33,11 @@ body{
 }
 .header {
     width:100%;
+		padding:1.8rem 2.24rem;
     max-width:640px;
     font-size:3.4rem;
     line-height:3.4rem;
-    padding:1.8rem 2.24rem;
+		color:white;
     text-align:center;
     letter-spacing:0.4rem;
 }
